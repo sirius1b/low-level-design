@@ -21,7 +21,7 @@
     
 
 
-:::mermaid
+```mermaid
 
 classDiagram
     
@@ -156,6 +156,6 @@ classDiagram
     
 
 
-:::
+```
 
 
