@@ -1,12 +1,14 @@
 package parkinglot.DTOs;
 
+import parkinglot.Models.VehicleType;
+
 public class IssueTicketDTO {
     
     String parkingLotId;
     String customerId; 
     String vehicleId;
     String vehicleNo;
-    String vehicleType;
+    VehicleType vehicleType;
     String gateId; // entryGateId
     
     public String getCustomerId() {
@@ -33,10 +35,10 @@ public class IssueTicketDTO {
     public void setGateId(String gateId) {
         this.gateId = gateId;
     }
-    public String getVehicleType() {
+    public VehicleType getVehicleType() {
         return vehicleType;
     }
-    public void setVehicleType(String vehicleType) {
+    public void setVehicleType(VehicleType vehicleType) {
         this.vehicleType = vehicleType;
     }
     public String getParkingLotId() {

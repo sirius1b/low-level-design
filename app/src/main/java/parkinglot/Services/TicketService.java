@@ -1,5 +1,9 @@
 package parkinglot.Services;
 
-public class TicketService {
+import parkinglot.DTOs.IssueTicketDTO;
+import parkinglot.Models.Ticket;
 
+public interface TicketService {
+
+    public Ticket issueTicket(IssueTicketDTO issueTicketDTO);
 }
